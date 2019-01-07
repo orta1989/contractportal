@@ -1,0 +1,7 @@
+server:
+  port: 9001
+  
+logging:  level:    org.springframework: ERROR
+    com.triangle: ERROR
+    
+spring:  devtools:    restart:      enabled: false

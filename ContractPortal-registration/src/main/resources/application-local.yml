@@ -1,0 +1,16 @@
+server:
+  port: 8445
+    
+logging:
+  level:
+    org.springframework: ERROR
+    com.triangle: DEBUG
+    
+spring:
+  devtools:
+    restart:
+      enabled: true  
+
+  data:
+    mongodb:
+      uri: mongodb://user:secret@127.0.0.1:27017/mongodb
